@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "gFont";
+    src: url("폰트/Pretendard-Light.ttf") format('truetype');
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "sFont";
+    src: url("폰트/SingleDay-Regular.ttf") format('truetype');
+    font-display: swap;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-family: "gFont";    
+    background-color: black;
+}
+.col-12 {
+    padding: 0px;
+}
+.logo {
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+/*네비*/
+nav {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.logoBox {
+    width: fit-content;
+}
+.logoBox > img {
+    width: 100%;
+    max-width: 300px;
+    min-width: 50px;
+}
+.buttonBox {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.buttonBox > a {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    width: fit-content;
+    font-weight: 900;
+}
+.buttonBox > a:hover {
+    color: #fc5230;
+    transition: 0.5s;
+}
+@media (max-width: 1200px) {
+    .buttonBox {
+        width: 100%;
+    }
+    .logoBox {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .buttonBox > a {
+        font-size: 16px;
+    }
+}
+
+/*bodySection*/
+.bodySection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(image/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'gfont';
+}
+.textBig {
+    font-size: 44px;
+    color: white;
+    font-weight: 700;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(17, 17, 17, 0.8);
+}
+.textMid {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(17, 17, 17, 0.8);
+}
+.text {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(17, 17, 17, 0.8);
+    margin-top: 5px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.img1 {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contactBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.contactBoxContent {
+    width: 80%;
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+    display: block;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 2rem;
+}
+@media (max-width: 1200px) {
+    .contactBoxContent {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
