@@ -98,6 +98,16 @@ nav {
     text-align: center;
     font-family: 'gfont';
 }
+.bodySection2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(image/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-family: 'gfont';
+}
 .textBig {
     font-size: 44px;
     color: white;
