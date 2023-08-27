@@ -18,7 +18,7 @@ onload = () => {
     if(text === '서울') {
         $(pass1).append('서울 전 지역')
         pass2.textContent = '서울 전 지역을'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F001.png?alt=media&token=55277546-6124-4efe-8f35-c901c01a223e'
+        passimg1.src = 'image2/서울.png'
         passimg2.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/1.jpg?alt=media&token=cc0f8fd0-ab65-4278-add5-c945eee73a60'
         passimg3.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/10.jpg?alt=media&token=5bfe88a4-8602-465d-a759-a9a3c7f963c1'
         passimg4.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/100.jpg?alt=media&token=3fd8c260-80d5-473e-80a1-fc99adfc6871'
@@ -33,7 +33,7 @@ onload = () => {
     if(text === '부산') {
         $(pass1).append('부산 전 지역')
         pass2.textContent = '부산 전 지역을'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F002.png?alt=media&token=16496990-f0f0-4942-bc3f-9675320bd767'
+        passimg1.src = 'image2/부산.png'
         passimg2.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/107.jpg?alt=media&token=df815a7d-4914-4b3b-8f99-49571e9f7521'
         passimg3.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/108.jpg?alt=media&token=083360be-65db-402b-9e10-31997e00f88d'
         passimg4.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/109.jpg?alt=media&token=d0298e02-1c0b-4114-848b-db7ed7caf1ed'
@@ -48,7 +48,7 @@ onload = () => {
     if(text === '대구') {
         $(pass1).append('대구 전 지역')
         pass2.textContent = '대구 전 지역을'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F003.png?alt=media&token=e4a21436-42a9-43bb-bb27-78040ec76a90'
+        passimg1.src = 'image2/대구.png'
         passimg2.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/115.jpg?alt=media&token=83a9b91d-2ee8-41b3-b573-a6d5c9e8855a'
         passimg3.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/116.jpg?alt=media&token=db876b60-1a99-4fa2-a7b2-9d7e5bc322c5'
         passimg4.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/117.jpg?alt=media&token=f5286f2c-d0f0-4b21-814b-57b18af87bd0'
@@ -64,7 +64,7 @@ onload = () => {
     if(text === '인천') {
         $(pass1).append('인천 전 지역')
         pass2.textContent = '인천 전 지역을'
-        passimg2.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/123.jpg?alt=media&token=ddc48596-843a-4bc6-937a-e54267922589'
+        passimg1.src = 'image2/인천.png'
         passimg3.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/124.jpg?alt=media&token=39b2f55e-588a-4743-b264-7807533e18f4'
         passimg4.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/125.jpg?alt=media&token=b6693a46-3643-4ddf-8c68-ab7e15d47088'
         passimg5.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/126.jpg?alt=media&token=ffa61a0e-38ba-4fa1-80b3-f6240642530e'
@@ -89,7 +89,7 @@ onload = () => {
         passimg9.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/138.jpg?alt=media&token=854ef7a4-be9b-4ba3-83ce-1f18cefaa7d3'
         passimg10.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/139.jpg?alt=media&token=a8918d26-e72c-487a-bbd9-09eee6dcfb8b'
         passimg11.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/99.jpg?alt=media&token=effbbd15-5fe1-4414-a75b-cfc6fd3f61ff'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F005.png?alt=media&token=c7754268-2c25-42a3-a27e-82db906ee20c'
+        passimg1.src = 'image2/광주.png'
     }
     if(text === '대전') {
         $(pass1).append('대전 전 지역')
@@ -103,7 +103,7 @@ onload = () => {
         passimg8.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/145.jpg?alt=media&token=37dc9d2b-f92f-4cab-b279-59666f3d79b5'
         passimg9.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/146.jpg?alt=media&token=9e2e52cd-9ca6-47bc-ad01-bd7bf4598beb'
         passimg10.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/147.jpg?alt=media&token=cf8766f4-a0f6-4083-a191-f356ac71829b'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F006.png?alt=media&token=0cbfc9e0-0472-48cb-908d-10cd427776f2'
+        passimg1.src = 'image2/대전.png'
     }
     if(text === '울산') {
         $(pass1).append('울산 전 지역')
@@ -117,7 +117,7 @@ onload = () => {
         passimg8.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/153.jpg?alt=media&token=bba29ff6-e93c-4825-a7bf-fbbeea96f0b4'
         passimg9.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/154.jpg?alt=media&token=2b7ddbb9-aed7-428e-9b4e-76dfbbc1fa2d'
         passimg10.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/155.jpg?alt=media&token=148ae1ec-f798-4154-8370-2d47b06c1df3'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F007.png?alt=media&token=f5c8d13d-c9b6-4da5-be6e-d6ccc3da9797'
+        passimg1.src = 'image2/울산.png'
     }
     if(text === '경기') {
         $(pass1).append('경기 전 지역')
@@ -131,7 +131,7 @@ onload = () => {
         passimg8.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/2.jpg?alt=media&token=eead8637-879c-4912-a851-b0ef59501c16'
         passimg9.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/20.jpg?alt=media&token=9838a3bb-0831-43ad-aff3-1789c8dbc303'
         passimg10.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/21.jpg?alt=media&token=1a4bdbd6-9316-4356-bcae-4c258972a5f9'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F008.png?alt=media&token=2b37bb98-53a1-44b2-a637-55fd0e10d2a9'
+        passimg1.src = 'image2/경기.png'
     }
     if(text === '강원') {
         $(pass1).append('강원 전 지역')
@@ -145,7 +145,7 @@ onload = () => {
         passimg8.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/28.jpg?alt=media&token=6b513582-4f78-42aa-b0f6-7fb534e1e110'
         passimg9.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/29.jpg?alt=media&token=7a6493b0-c536-4048-a20b-8b70571120ae'
         passimg10.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/3.jpg?alt=media&token=87300bae-5e70-4d6c-b694-188a78f18810'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F009.png?alt=media&token=58948dcd-55ae-4685-baee-3a7ec32b92f5'
+        passimg1.src = 'image2/강원.png'
     }
     if(text === '충북') {
         $(pass1).append('충북 전 지역')
@@ -159,7 +159,7 @@ onload = () => {
         passimg8.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/36.jpg?alt=media&token=6c74dc14-badc-48c8-bc19-486b1e68565f'
         passimg9.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/37.jpg?alt=media&token=820daa53-bbbe-4d60-96f9-156405100ecf'
         passimg10.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/38.jpg?alt=media&token=58302260-cb48-473c-b584-a523e8ee3635'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F010.png?alt=media&token=0520bc53-7019-4c18-8224-53308dff8bfa'
+        passimg1.src = 'image2/충북.png'
     }
     if(text === '충남') {
         $(pass1).append('충남 전 지역')
@@ -173,7 +173,7 @@ onload = () => {
         passimg8.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/44.jpg?alt=media&token=93f186c6-4297-4597-9a86-f7be01c36baf'
         passimg9.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/45.jpg?alt=media&token=3a051542-a038-4557-85e3-424465a2efcf'
         passimg10.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/46.jpg?alt=media&token=ae56f9b0-8152-4fb9-acc3-01b68994061e'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F011.png?alt=media&token=f8949bbb-b090-434e-8577-5aea60343d74'
+        passimg1.src = 'image2/충남.png'
     }
     if(text === '전북') {
         $(pass1).append('전북 전 지역')
@@ -187,7 +187,7 @@ onload = () => {
         passimg8.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/52.jpg?alt=media&token=0dc6892d-cbf2-4ef2-a6cc-5ad75ffe67b8'
         passimg9.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/53.jpg?alt=media&token=4c589015-8d95-4fd8-9e0f-81ee7aa9393d'
         passimg10.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/54.jpg?alt=media&token=451e4405-8017-497c-bba5-3f601aa89320'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F012.png?alt=media&token=624744a3-fd07-485a-b551-7eac3d13436d'
+        passimg1.src = 'image2/전북.png'
     }
     if(text === '전남') {
         $(pass1).append('전남 전 지역')
@@ -201,7 +201,7 @@ onload = () => {
         passimg8.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/60.jpg?alt=media&token=d39b602f-c504-4cfe-915a-7505d633053c'
         passimg9.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/61.jpg?alt=media&token=00c66456-3b62-493b-be81-c492a0b75a24'
         passimg10.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/62.jpg?alt=media&token=147d72c7-c3ba-4275-8b63-3afbcee40d69'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F013.png?alt=media&token=2ba880e3-2e37-462c-9d51-caa9ca53a1c9'
+        passimg1.src = 'image2/전남.png'
     }
     if(text === '경북') {
         $(pass1).append('경북 전 지역')
@@ -215,7 +215,7 @@ onload = () => {
         passimg8.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/69.jpg?alt=media&token=df1bac27-1499-4630-adf1-ed80f3c44f77'
         passimg9.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/7.jpg?alt=media&token=908b323a-1177-4e38-865a-5eb0a1912a5e'
         passimg10.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/70.jpg?alt=media&token=d64a015b-11a7-4e5d-aa9c-d4c24d91f61c'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F014.png?alt=media&token=96c7267e-b4c9-4f13-a95d-18c4b8cdae43'
+        passimg1.src = 'image2/경북.png'
     }
     if(text === '경남') {
         $(pass1).append('경남 전 지역')
@@ -229,7 +229,7 @@ onload = () => {
         passimg8.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/77.jpg?alt=media&token=02ea5898-1d2a-4b3e-af91-73964a411686'
         passimg9.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/78.jpg?alt=media&token=de6a0feb-0b08-4366-a2be-b217071ec3fe'
         passimg10.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/79.jpg?alt=media&token=a51f84d5-d579-45bb-9703-346feafa8d8e'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F015.png?alt=media&token=69b1eb77-af41-41ae-be81-f8150598a0b3'
+        passimg1.src = 'image2/경남.png'
     }
     if(text === '세종') {
         $(pass1).append('세종 전 지역')
@@ -243,7 +243,7 @@ onload = () => {
         passimg8.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/84.jpg?alt=media&token=ad323097-02d5-41dc-92b5-4214c685dd01'
         passimg9.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/85.jpg?alt=media&token=646ff60a-3c56-4629-976b-4883c93796bf'
         passimg10.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/86.jpg?alt=media&token=171dd9f5-4ade-4484-8125-85346186c288'
-        passimg1.src = 'https://firebasestorage.googleapis.com/v0/b/bitscale-1b2d1.appspot.com/o/navi%2F016.png?alt=media&token=d0b5724f-67a9-46a5-b640-2ef658f5628a'
+        passimg1.src = 'image2/세종.png'
     }
     if(text === '제주') {
         $(pass1).append('제주 전 지역')
@@ -256,6 +256,6 @@ onload = () => {
         passimg7.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/91.jpg?alt=media&token=78e27e2a-d008-4b13-a752-97e95bcbf14a'
         passimg8.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/92.jpg?alt=media&token=b8c799fa-9943-450b-91aa-7864d940301c'
         passimg9.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/93.jpg?alt=media&token=8c86e59f-a7ff-421f-b80a-78f013c70932'
-        passimg10.src = 'https://firebasestorage.googleapis.com/v0/b/longbottom-a7edf.appspot.com/o/94.jpg?alt=media&token=52a6356a-7599-4456-8051-c364cd4ee9fc'
+        passimg1.src = 'image2/제주.png'
     }
 }
