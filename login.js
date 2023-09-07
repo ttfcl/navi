@@ -1,6 +1,3 @@
-if(localStorage.getItem("userEmail")) {
-  location.href = 'index.html'
-}
 
 
 
