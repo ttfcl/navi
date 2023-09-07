@@ -31,7 +31,7 @@ let loginF = () => {
     firebase.auth().signInWithEmailAndPassword(email.value, password.value).then((result)=> {
       localStorage.setItem("userEmail" , email.value)
       localStorage.setItem("userDisplayName" , result.user.displayName)
-      localStorage.setItem("masterkey" , '1')
+      localStorage.setItem("masterkeyNavi" , '1')
       masterkey = 1;
       alert("성공적으로 로그인 되었습니다.")
       location.href = "./index.html";
